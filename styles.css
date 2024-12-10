@@ -1,0 +1,72 @@
+/* Arquivo: styles.css */
+
+/* Reset básico */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Cabeçalho e menu */
+header {
+    background-color: #0077b6;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Seção principal */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #0077b6;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #0077b6;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
